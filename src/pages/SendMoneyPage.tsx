@@ -16,12 +16,12 @@ const SendMoneyPage = () => {
   const { toast } = useToast();
 
   const contacts = [
-    { id: "1", name: "Jessica Kim", image: "", frequent: true },
-    { id: "2", name: "Michael Wong", image: "", frequent: true },
-    { id: "3", name: "Sarah Johnson", image: "", frequent: false },
-    { id: "4", name: "David Chen", image: "", frequent: false },
-    { id: "5", name: "Emily Davis", image: "", frequent: true },
-    { id: "6", name: "James Wilson", image: "", frequent: false },
+    { id: "1", name: "Bishan Patel", image: "", frequent: true },
+    { id: "2", name: "Pushkar Sharma", image: "", frequent: true },
+    { id: "3", name: "Dushyant Singh", image: "", frequent: false },
+    { id: "4", name: "Raunak Mehta", image: "", frequent: false },
+    { id: "5", name: "Ambuj Gupta", image: "", frequent: true },
+    { id: "6", name: "Vivek Kumar", image: "", frequent: false },
     { id: "7", name: "Add New", image: "", frequent: false, isAdd: true },
   ];
 
