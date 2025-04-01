@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { 
   Bell, 
@@ -32,7 +31,7 @@ const HomePage = () => {
       type: "debit" as const, 
       name: "Starbucks Coffee", 
       date: "Today, 10:23 AM", 
-      amount: "$5.40",
+      amount: "₹450",
       category: "Food & Drinks" 
     },
     { 
@@ -40,7 +39,7 @@ const HomePage = () => {
       type: "credit" as const, 
       name: "Salary Deposit", 
       date: "Yesterday", 
-      amount: "$2,450.00",
+      amount: "₹2,45,000",
       category: "Income" 
     },
     { 
@@ -48,7 +47,7 @@ const HomePage = () => {
       type: "debit" as const, 
       name: "Amazon.com", 
       date: "Jun 15", 
-      amount: "$67.50",
+      amount: "₹5,625",
       category: "Shopping" 
     }
   ];
@@ -61,7 +60,7 @@ const HomePage = () => {
           <div className="flex justify-between items-center mb-6">
             <div>
               <p className="text-darkGray">Good morning,</p>
-              <h1 className="text-xl font-bold text-navy">Alex Johnson</h1>
+              <h1 className="text-xl font-bold text-navy">Sahil Kumar</h1>
             </div>
             <div className="flex space-x-3 items-center">
               <button className="bg-lightGray p-2 rounded-full">
@@ -82,8 +81,8 @@ const HomePage = () => {
 
           {/* Balance Card */}
           <BalanceCard 
-            balance="$12,846.50" 
-            cardName="Alex Johnson" 
+            balance="₹12,84,650" 
+            cardName="Sahil Kumar" 
             cardNumber="**** 1234" 
           />
 
