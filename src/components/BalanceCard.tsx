@@ -1,4 +1,3 @@
-
 import { ArrowUpRight, ArrowDownLeft } from "lucide-react";
 
 interface BalanceCardProps {
@@ -9,7 +8,7 @@ interface BalanceCardProps {
 
 const BalanceCard = ({ balance, cardName, cardNumber }: BalanceCardProps) => {
   return (
-    <div className="card-gradient rounded-2xl p-5 text-white shadow-lg mb-5 animate-scale-in">
+    <div className="card-gradient from-blue-500 to-teal-400 rounded-2xl p-5 text-white shadow-lg mb-5 animate-scale-in">
       <div className="flex justify-between items-start mb-5">
         <div>
           <p className="text-sm opacity-80">Available Balance</p>

@@ -53,9 +53,9 @@ const HomePage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-lightGray pb-24">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-teal-50 pb-24">
       {/* Header */}
-      <div className="bg-white rounded-b-3xl shadow-sm pt-12 pb-5">
+      <div className="bg-white/80 backdrop-blur-lg rounded-b-3xl shadow-sm pt-12 pb-5">
         <div className="px-5">
           <div className="flex justify-between items-center mb-6">
             <div>
@@ -81,7 +81,7 @@ const HomePage = () => {
 
           {/* Balance Card */}
           <BalanceCard 
-            balance="₹12,84,650" 
+            balance="₹10,00,000" 
             cardName="Sahil Kumar" 
             cardNumber="**** 1234" 
           />
